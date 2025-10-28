@@ -1,14 +1,15 @@
+// db/initializer.go
 package db
 
 import (
-	"log"
-
+	// We don't need "log" here anymore
 	"github.com/joho/godotenv"
 )
 
 func LoadEnvVariables() {
-	err := godotenv.Load()
-	if err != nil {
-		log.Fatal("Error loading .env file")
-	}
+	// Try to load a .env file.
+	// If it doesn't exist (like on Railway), that's fine.
+	// The app will just use the *real* environment variables
+	// that Railway provides. We can safely ignore any errors here.
+	godotenv.Load()
 }
