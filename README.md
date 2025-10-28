@@ -1,4 +1,4 @@
-# HNGXIII Currency Exchange API
+# hng13 Currency Exchange API
 
 ## Overview
 This project is a Go-based RESTful API built with the Gin framework, designed to provide comprehensive country information and currency exchange rates. It leverages GORM for PostgreSQL database interactions, integrating with external APIs to fetch and cache global country data, including population, capital, region, and dynamic exchange rates.
