@@ -2,7 +2,7 @@ package routes
 
 import (
 	"github.com/gin-gonic/gin"
-	"github.com/shemigam1/hngxiii-currency-exchange/services"
+	"github.com/shemigam1/hng13-currency-exchange/services"
 )
 
 // POST /countries/refresh → Fetch all countries and exchange rates, then cache them in the database
@@ -14,7 +14,7 @@ import (
 func Routes(r *gin.Engine) {
 	r.GET("/", func(c *gin.Context) {
 		c.JSON(200, gin.H{
-			"message": "Welcome to HNGXIII Currency Exchange API",
+			"message": "Welcome to HNG13 Currency Exchange API",
 		})
 	})
 

@@ -1,8 +1,8 @@
 package main
 
 import (
-	"github.com/shemigam1/hngxiii-currency-exchange/db"
-	"github.com/shemigam1/hngxiii-currency-exchange/models"
+	"github.com/shemigam1/hng13-currency-exchange/db"
+	"github.com/shemigam1/hng13-currency-exchange/models"
 )
 
 func init() {

@@ -1,4 +1,4 @@
-module github.com/shemigam1/hngxiii-currency-exchange
+module github.com/shemigam1/hng13-currency-exchange
 
 go 1.25.0
 

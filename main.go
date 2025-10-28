@@ -5,8 +5,8 @@ import (
 	"os"
 
 	"github.com/gin-gonic/gin"
-	"github.com/shemigam1/hngxiii-currency-exchange/db"
-	"github.com/shemigam1/hngxiii-currency-exchange/routes"
+	"github.com/shemigam1/hng13-currency-exchange/db"
+	"github.com/shemigam1/hng13-currency-exchange/routes"
 )
 
 func init() {
