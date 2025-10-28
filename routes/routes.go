@@ -2,7 +2,7 @@ package routes
 
 import (
 	"github.com/gin-gonic/gin"
-	"github.com/shemigam1/hng13-currency-exchange/services"
+	"github.com/Oluwatise-Ajayi/hng13-currency-exchange/services"
 )
 
 // POST /countries/refresh → Fetch all countries and exchange rates, then cache them in the database

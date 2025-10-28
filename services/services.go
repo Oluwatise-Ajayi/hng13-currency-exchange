@@ -9,8 +9,8 @@ import (
 	"time"
 
 	"github.com/gin-gonic/gin"
-	"github.com/shemigam1/hng13-currency-exchange/db"
-	"github.com/shemigam1/hng13-currency-exchange/models"
+	"github.com/Oluwatise-Ajayi/hng13-currency-exchange/db"
+	"github.com/Oluwatise-Ajayi/hng13-currency-exchange/models"
 	"gorm.io/gorm"
 )
 

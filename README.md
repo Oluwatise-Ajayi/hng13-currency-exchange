@@ -338,7 +338,7 @@ We welcome contributions to enhance this project! To contribute:
 This project is licensed under the [LICENSE_NAME] License.
 
 ## Author Info
-- **Shemigam1**
+- **Oluwatise-Ajayi**
   - LinkedIn: [linkedin.com/in/Oluwatise-ajayi](https://www.linkedin.com/in/oluwatise-ajayi-26697b1ba/)
   - Twitter: #####
 
